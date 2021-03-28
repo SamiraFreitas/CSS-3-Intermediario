@@ -1,0 +1,33 @@
+<!--  elementos bloco 
+- inline a, span, img elementos um a frente do outro, largura de acordo com o conteudo
+- block h1, p, table esses elemntos tem uma largura que ocupa todo espaçamento da dela, se organizam um em baixo do outro;
+- inline- block  largura de acordo com seu conteudo elementos um a baixo do outro --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline, block e inline-block</title>
+    <style type="text/css">
+    
+      .borda
+      {
+          border: 1px solid red;
+         /* display: inline;  faz com que elementos block se organizem na mesma linha*/
+        /* display: block; faz com que elementos inline se organizem um abaixo do outro*/
+        /* display: inline-block;  ocorre a quebra de linha somente quando o conteudo ja nao cabe mais na pagina */
+      }
+    
+    </style>
+</head>
+<body>
+
+    <span class="borda"> Inline 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, eos incidunt at ducimus debitis odit similique vel labore odio praesentium doloremque,
+         officiis ipsum atque commodi, earum quaerat neque magnam. Laboriosam!</span>
+    <span class="borda" > Inline 2 </span>
+    <!-- elemento block
+    <h1 class="borda">Bloco 1 </h1>
+    <h1 class="borda" >Bloco 1 </h1> -->
+   
+</body>
+</html>
